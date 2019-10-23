@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# Running the background:
+# Do `reminder.py ... &` to run process in the background (i.e. append command with "&")
+#
+# Do Ctrl + Z to pause and send to background, then do `bg` to keep running in the background
+# Do `fg` to bring the process back into the foreground
+
 from sys import argv
 from time import sleep, time
 from tkinter import messagebox, Tk
